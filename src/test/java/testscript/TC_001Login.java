@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class Login extends Base {
+public class TC_001Login extends Base {
 
 	@Test(priority=1)
 	public void loginWithValid()
