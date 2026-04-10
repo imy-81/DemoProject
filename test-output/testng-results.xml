@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-10T14:49:52 EDT" name="Default suite" finished-at="2026-04-10T14:50:14 EDT" duration-ms="22652">
+    <groups>
+    </groups>
+    <test started-at="2026-04-10T14:49:52 EDT" name="Default test" finished-at="2026-04-10T14:50:14 EDT" duration-ms="22652">
+      <class name="testscript.Login">
+        <test-method is-config="true" signature="browserinitialization()[pri:0, instance:testscript.Login@4f83df68]" started-at="2026-04-10T14:49:52 EDT" name="browserinitialization" finished-at="2026-04-10T14:49:55 EDT" duration-ms="3079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserinitialization -->
+        <test-method signature="loginWithValid()[pri:1, instance:testscript.Login@4f83df68]" started-at="2026-04-10T14:49:55 EDT" name="loginWithValid" finished-at="2026-04-10T14:49:57 EDT" duration-ms="2502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValid -->
+        <test-method is-config="true" signature="browserCloseAndQuit()[pri:0, instance:testscript.Login@4f83df68]" started-at="2026-04-10T14:49:57 EDT" name="browserCloseAndQuit" finished-at="2026-04-10T14:49:58 EDT" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserCloseAndQuit -->
+        <test-method is-config="true" signature="browserinitialization()[pri:0, instance:testscript.Login@4f83df68]" started-at="2026-04-10T14:49:58 EDT" name="browserinitialization" finished-at="2026-04-10T14:50:00 EDT" duration-ms="2201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserinitialization -->
+        <test-method signature="loginWithInvalidPswd()[pri:2, instance:testscript.Login@4f83df68]" started-at="2026-04-10T14:50:00 EDT" name="loginWithInvalidPswd" finished-at="2026-04-10T14:50:03 EDT" duration-ms="3426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidPswd -->
+        <test-method is-config="true" signature="browserCloseAndQuit()[pri:0, instance:testscript.Login@4f83df68]" started-at="2026-04-10T14:50:03 EDT" name="browserCloseAndQuit" finished-at="2026-04-10T14:50:04 EDT" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserCloseAndQuit -->
+        <test-method is-config="true" signature="browserinitialization()[pri:0, instance:testscript.Login@4f83df68]" started-at="2026-04-10T14:50:04 EDT" name="browserinitialization" finished-at="2026-04-10T14:50:05 EDT" duration-ms="1765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserinitialization -->
+        <test-method signature="loginWithInvalidUser()[pri:3, instance:testscript.Login@4f83df68]" started-at="2026-04-10T14:50:05 EDT" name="loginWithInvalidUser" finished-at="2026-04-10T14:50:09 EDT" duration-ms="3625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidUser -->
+        <test-method is-config="true" signature="browserCloseAndQuit()[pri:0, instance:testscript.Login@4f83df68]" started-at="2026-04-10T14:50:09 EDT" name="browserCloseAndQuit" finished-at="2026-04-10T14:50:09 EDT" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserCloseAndQuit -->
+        <test-method is-config="true" signature="browserinitialization()[pri:0, instance:testscript.Login@4f83df68]" started-at="2026-04-10T14:50:09 EDT" name="browserinitialization" finished-at="2026-04-10T14:50:11 EDT" duration-ms="1772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserinitialization -->
+        <test-method signature="loginWithInvalid()[pri:4, instance:testscript.Login@4f83df68]" started-at="2026-04-10T14:50:11 EDT" name="loginWithInvalid" finished-at="2026-04-10T14:50:14 EDT" duration-ms="3198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalid -->
+        <test-method is-config="true" signature="browserCloseAndQuit()[pri:0, instance:testscript.Login@4f83df68]" started-at="2026-04-10T14:50:14 EDT" name="browserCloseAndQuit" finished-at="2026-04-10T14:50:14 EDT" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserCloseAndQuit -->
+      </class> <!-- testscript.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
