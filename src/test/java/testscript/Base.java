@@ -15,7 +15,7 @@ public class Base {
 	{
 		
 		driver=new ChromeDriver();
-		driver.get("https://selenium.qabible.in/");
+		driver.get("https://groceryapp.uniqassosiates.com/admin/login");
 		driver.manage().window().maximize();
 		
 		
