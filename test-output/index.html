@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\tomso\AppData\Local\Temp\testng-eclipse--1853455424\testng-customsuite.xml</span>
+                    <span>C:\Users\tomso\AppData\Local\Temp\testng-eclipse--1968206697\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,6 +104,21 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="testscript.LoginTest" class="method navigator-link" hash-for-method="verifyTheUserIsAbleToLoginUsingValidCred">verifyTheUserIsAbleToLoginUsingValidCred</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testscript.LoginTest" class="method navigator-link" hash-for-method="verifyTheUserIsAbleToLoginUsinginValidBoth">verifyTheUserIsAbleToLoginUsinginValidBoth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testscript.LoginTest" class="method navigator-link" hash-for-method="verifyTheUserIsAbleToLoginUsinginValidPswrd">verifyTheUserIsAbleToLoginUsinginValidPswrd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testscript.LoginTest" class="method navigator-link" hash-for-method="verifyTheUserIsAbleToLoginUsinginValidUser">verifyTheUserIsAbleToLoginUsinginValidUser</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -131,12 +146,33 @@
                   <span class="method-name">verifyTheUserIsAbleToLoginUsingValidCred</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTheUserIsAbleToLoginUsinginValidBoth">
+                  </a> <!-- verifyTheUserIsAbleToLoginUsinginValidBoth -->
+                  <span class="method-name">verifyTheUserIsAbleToLoginUsinginValidBoth</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTheUserIsAbleToLoginUsinginValidPswrd">
+                  </a> <!-- verifyTheUserIsAbleToLoginUsinginValidPswrd -->
+                  <span class="method-name">verifyTheUserIsAbleToLoginUsinginValidPswrd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTheUserIsAbleToLoginUsinginValidUser">
+                  </a> <!-- verifyTheUserIsAbleToLoginUsinginValidUser -->
+                  <span class="method-name">verifyTheUserIsAbleToLoginUsinginValidUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\tomso\AppData\Local\Temp\testng-eclipse--1853455424\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\tomso\AppData\Local\Temp\testng-eclipse--1968206697\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -185,16 +221,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyTheUserIsAbleToLoginUsingValidCred')
+data.setCell(0, 1, 'verifyTheUserIsAbleToLoginUsinginValidBoth')
 data.setCell(0, 2, 'testscript.LoginTest')
-data.setCell(0, 3, 1327);
+data.setCell(0, 3, 1839);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyTheUserIsAbleToLoginUsingValidCred')
+data.setCell(1, 2, 'testscript.LoginTest')
+data.setCell(1, 3, 1326);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyTheUserIsAbleToLoginUsinginValidUser')
+data.setCell(2, 2, 'testscript.LoginTest')
+data.setCell(2, 3, 1312);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyTheUserIsAbleToLoginUsinginValidPswrd')
+data.setCell(3, 2, 'testscript.LoginTest')
+data.setCell(3, 3, 274);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -226,12 +274,48 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyTheUserIsAbleToLoginUsingValidCred</span>
-                <span class="method-start">4272 ms</span>
+                <span class="method-name">verifyTheUserIsAbleToLoginUsinginValidBoth</span>
+                <span class="method-start">3980 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserCloseAndQuit</span>
-                <span class="method-start">5604 ms</span>
+                <span class="method-start">5823 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserinitialization</span>
+                <span class="method-start">6090 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTheUserIsAbleToLoginUsingValidCred</span>
+                <span class="method-start">9120 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserCloseAndQuit</span>
+                <span class="method-start">10448 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserinitialization</span>
+                <span class="method-start">10683 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTheUserIsAbleToLoginUsinginValidPswrd</span>
+                <span class="method-start">14162 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserCloseAndQuit</span>
+                <span class="method-start">14438 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserinitialization</span>
+                <span class="method-start">14639 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTheUserIsAbleToLoginUsinginValidUser</span>
+                <span class="method-start">17778 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserCloseAndQuit</span>
+                <span class="method-start">19092 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

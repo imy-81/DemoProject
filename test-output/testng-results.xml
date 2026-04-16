@@ -1,21 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-13T12:35:42 EDT" name="Default suite" finished-at="2026-04-13T12:35:48 EDT" duration-ms="5895">
+  <suite started-at="2026-04-15T12:50:04 EDT" name="Default suite" finished-at="2026-04-15T12:50:24 EDT" duration-ms="19384">
     <groups>
     </groups>
-    <test started-at="2026-04-13T12:35:42 EDT" name="Default test" finished-at="2026-04-13T12:35:48 EDT" duration-ms="5895">
+    <test started-at="2026-04-15T12:50:04 EDT" name="Default test" finished-at="2026-04-15T12:50:24 EDT" duration-ms="19384">
       <class name="testscript.LoginTest">
-        <test-method is-config="true" signature="browserinitialization()[pri:0, instance:testscript.LoginTest@4218d6a3]" started-at="2026-04-13T12:35:42 EDT" name="browserinitialization" finished-at="2026-04-13T12:35:46 EDT" duration-ms="4270" status="PASS">
+        <test-method is-config="true" signature="browserinitialization()[pri:0, instance:testscript.LoginTest@6771beb3]" started-at="2026-04-15T12:50:04 EDT" name="browserinitialization" finished-at="2026-04-15T12:50:08 EDT" duration-ms="3978" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserinitialization -->
-        <test-method signature="verifyTheUserIsAbleToLoginUsingValidCred()[pri:0, instance:testscript.LoginTest@4218d6a3]" started-at="2026-04-13T12:35:46 EDT" name="verifyTheUserIsAbleToLoginUsingValidCred" finished-at="2026-04-13T12:35:48 EDT" duration-ms="1327" status="PASS">
+        <test-method signature="verifyTheUserIsAbleToLoginUsinginValidBoth()[pri:0, instance:testscript.LoginTest@6771beb3]" started-at="2026-04-15T12:50:08 EDT" name="verifyTheUserIsAbleToLoginUsinginValidBoth" finished-at="2026-04-15T12:50:10 EDT" duration-ms="1839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheUserIsAbleToLoginUsinginValidBoth -->
+        <test-method is-config="true" signature="browserCloseAndQuit()[pri:0, instance:testscript.LoginTest@6771beb3]" started-at="2026-04-15T12:50:10 EDT" name="browserCloseAndQuit" finished-at="2026-04-15T12:50:10 EDT" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserCloseAndQuit -->
+        <test-method is-config="true" signature="browserinitialization()[pri:0, instance:testscript.LoginTest@6771beb3]" started-at="2026-04-15T12:50:10 EDT" name="browserinitialization" finished-at="2026-04-15T12:50:13 EDT" duration-ms="3030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserinitialization -->
+        <test-method signature="verifyTheUserIsAbleToLoginUsingValidCred()[pri:1, instance:testscript.LoginTest@6771beb3]" started-at="2026-04-15T12:50:13 EDT" name="verifyTheUserIsAbleToLoginUsingValidCred" finished-at="2026-04-15T12:50:15 EDT" duration-ms="1326" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTheUserIsAbleToLoginUsingValidCred -->
-        <test-method is-config="true" signature="browserCloseAndQuit()[pri:0, instance:testscript.LoginTest@4218d6a3]" started-at="2026-04-13T12:35:48 EDT" name="browserCloseAndQuit" finished-at="2026-04-13T12:35:48 EDT" duration-ms="248" status="PASS">
+        <test-method is-config="true" signature="browserCloseAndQuit()[pri:0, instance:testscript.LoginTest@6771beb3]" started-at="2026-04-15T12:50:15 EDT" name="browserCloseAndQuit" finished-at="2026-04-15T12:50:15 EDT" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserCloseAndQuit -->
+        <test-method is-config="true" signature="browserinitialization()[pri:0, instance:testscript.LoginTest@6771beb3]" started-at="2026-04-15T12:50:15 EDT" name="browserinitialization" finished-at="2026-04-15T12:50:18 EDT" duration-ms="3478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserinitialization -->
+        <test-method signature="verifyTheUserIsAbleToLoginUsinginValidPswrd()[pri:2, instance:testscript.LoginTest@6771beb3]" started-at="2026-04-15T12:50:18 EDT" name="verifyTheUserIsAbleToLoginUsinginValidPswrd" finished-at="2026-04-15T12:50:19 EDT" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheUserIsAbleToLoginUsinginValidPswrd -->
+        <test-method is-config="true" signature="browserCloseAndQuit()[pri:0, instance:testscript.LoginTest@6771beb3]" started-at="2026-04-15T12:50:19 EDT" name="browserCloseAndQuit" finished-at="2026-04-15T12:50:19 EDT" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserCloseAndQuit -->
+        <test-method is-config="true" signature="browserinitialization()[pri:0, instance:testscript.LoginTest@6771beb3]" started-at="2026-04-15T12:50:19 EDT" name="browserinitialization" finished-at="2026-04-15T12:50:22 EDT" duration-ms="3139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserinitialization -->
+        <test-method signature="verifyTheUserIsAbleToLoginUsinginValidUser()[pri:3, instance:testscript.LoginTest@6771beb3]" started-at="2026-04-15T12:50:22 EDT" name="verifyTheUserIsAbleToLoginUsinginValidUser" finished-at="2026-04-15T12:50:23 EDT" duration-ms="1312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheUserIsAbleToLoginUsinginValidUser -->
+        <test-method is-config="true" signature="browserCloseAndQuit()[pri:0, instance:testscript.LoginTest@6771beb3]" started-at="2026-04-15T12:50:23 EDT" name="browserCloseAndQuit" finished-at="2026-04-15T12:50:24 EDT" duration-ms="244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserCloseAndQuit -->
