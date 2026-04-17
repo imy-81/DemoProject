@@ -10,22 +10,7 @@ import pages.LoginPage;
 import utilities.ExcelUtility;
 
 public class LogoutTest extends Base {
-//@Test(priority=1)
-public void VerifyLoginAndLogoutCred() throws IOException
 
-{
-	
-
-	String usernamevalue=ExcelUtility.getStringData(1, 0, "loginpage");
-	
-	String passwordvalue=ExcelUtility.getStringData(1, 1,"loginpage");
-	
-	LoginPage loginpage=new LoginPage(driver);
-	loginpage.username(usernamevalue);
-	loginpage.pswrd(passwordvalue);
-	loginpage.clickOnSignin();
-
-}
 
 @Test
 public void verifyLogoutTest() throws IOException, InterruptedException
