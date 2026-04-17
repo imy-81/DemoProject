@@ -11,7 +11,7 @@ import utilities.ExcelUtility;
 
 public class LoginTest extends Base {
 
-	@Test(priority=1)
+	@Test(priority=1,groups= {"regression"})
 	public void verifyTheUserIsAbleToLoginUsingValidCred() throws IOException
 	{
 		

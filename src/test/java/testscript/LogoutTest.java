@@ -34,6 +34,31 @@ public void verifyLogoutTest() throws IOException, InterruptedException
 	lp.dropdown();
 	lp.clickLogout();
 	 System.out.println("Logout successfully");
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+}} 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
 	
 
    /* String currentUrl = driver.getCurrentUrl();
@@ -53,7 +78,7 @@ public void verifyLogoutTest() throws IOException, InterruptedException
 
 
 
-}
+
 
 
 
@@ -76,4 +101,4 @@ public void verifyLogoutTest() throws IOException, InterruptedException
 	
 	
 	
-}
+ 

@@ -14,7 +14,7 @@ public class Base {
 
 	public  WebDriver driver;
 	@Parameters("browser")
-	@BeforeMethod
+	@BeforeMethod(alwaysRun=true)
 	public void browserinitialization(String browser) throws Exception
 	
 	
@@ -51,7 +51,7 @@ public class Base {
 	
 	
 	
-	@AfterMethod
+	@AfterMethod(alwaysRun=true)
 	
 	public void browserCloseAndQuit()
 	
@@ -61,4 +61,3 @@ public class Base {
 		driver.quit();
 	}
 }
-//{if (driver != null) {
