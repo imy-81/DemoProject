@@ -18,7 +18,7 @@ public class ExcelUtility {
 
     public static String getStringData(int a, int b,String sheet) throws IOException {
         f = new FileInputStream(Constant.TESTDATAFILE);//to read
-        wb = new XSSFWorkbook(f);//apache inbuilt class to read data from workbook
+        wb = new XSSFWorkbook(f);//apache poi inbuilt class to read data from workbook
         sh = wb.getSheet(sheet);//get value from the sheet
         XSSFRow r = sh.getRow(a);
         XSSFCell c = r.getCell(b);
