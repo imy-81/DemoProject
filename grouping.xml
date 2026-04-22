@@ -3,7 +3,10 @@
 <suite name="grouping ">
   <parameter name="browser" value="chrome"></parameter>
   <test thread-count="5" name="Test">
-  <groups> <run><include name="regression"></include>
+  <groups> 
+  <run>
+  <include name="regression">
+  </include>
   
  
  </run>
@@ -15,7 +18,7 @@
       
      <class name="testscript.LoginTest" />
       
-   
+     <class name="testscript.LogoutTest" />
 
     </classes>
   </test>

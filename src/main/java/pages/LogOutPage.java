@@ -15,10 +15,14 @@ public class LogOutPage {
 	//locators
 	
 	
-	@FindBy(xpath = "//p[contains(text(),'Settings')]")
-	WebElement btndropdown;
+	//@FindBy(xpath = "//p[contains(text(),'Settings')]")
+	
+	@FindBy(xpath="//a[@data-toggle='dropdown']")
 
-	@FindBy(xpath = "//p[text()='Logout']")
+	WebElement btndropdown;
+	
+
+	@FindBy(xpath = "//a[@class='dropdown-item'][normalize-space()='Logout']")
 	WebElement logoutbtn;
 	
 	
@@ -54,25 +58,23 @@ public class LogOutPage {
 		public void clickLogout()
 		
 		{
-			JavascriptExecutor js = (JavascriptExecutor) driver;
-	        js.executeScript("arguments[0].click();", logoutbtn);
 			
 		
-			
-			
+		
+			logoutbtn.click();
 			
 			
 			
 		}
+		
+		
+		
 		
 	}	
 		
 		
 	
 	
-	
-	///*WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-//wait.until(ExpectedConditions.elementToBeClickable(logoutbtn));	*///
 	
 	
 	

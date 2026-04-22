@@ -12,7 +12,7 @@ import utilities.ExcelUtility;
 public class LogoutTest extends Base {
 
 
-@Test
+@Test(groups= {"regression"})
 public void verifyLogoutTest() throws IOException, InterruptedException
 
 {

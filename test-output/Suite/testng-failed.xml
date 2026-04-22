@@ -4,13 +4,13 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testscript.LogoutTest">
+      <class name="testscript.LoginTest">
         <methods>
-          <include name="verifyLogoutTest"/>
           <include name="browserinitialization"/>
           <include name="browserCloseAndQuit"/>
+          <include name="verifyTheUserIsAbleToLoginUsingInValidBoth"/>
         </methods>
-      </class> <!-- testscript.LogoutTest -->
+      </class> <!-- testscript.LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

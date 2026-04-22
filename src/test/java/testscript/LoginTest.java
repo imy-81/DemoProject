@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pages.LoginPage;
@@ -11,7 +12,7 @@ import utilities.ExcelUtility;
 
 public class LoginTest extends Base {
 
-	@Test(priority=1,groups= {"regression"})
+	@Test(priority=1,groups= {"regression"},retryAnalyzer=retry.Retry.class)
 	public void verifyTheUserIsAbleToLoginUsingValidCred() throws IOException
 	{
 		
@@ -26,6 +27,9 @@ public class LoginTest extends Base {
 		loginpage.username(usernamevalue);
 		loginpage.pswrd(passwordvalue);
 		loginpage.clickOnSignin();
+		boolean homepage=loginpage.isHomePageDisplayed();
+		Assert.assertTrue(homepage);
+		
 		
 	}
 	
@@ -43,7 +47,8 @@ public class LoginTest extends Base {
 		loginpage.username(usernamevalue);
 		loginpage.pswrd(passwordvalue);
 		loginpage.clickOnSignin();
-		
+		boolean alertmsg=loginpage.isAlertMsgDisplayed();
+		Assert.assertTrue(alertmsg);
 	}
 	@Test(priority=3)
 	
@@ -59,6 +64,9 @@ public class LoginTest extends Base {
 		loginpage.username(usernamevalue);
 		loginpage.pswrd(passwordvalue);
 		loginpage.clickOnSignin();
+		boolean greendashboard=loginpage.isDashBoardDisplayed();
+		Assert.assertTrue(greendashboard);
+		
 			}	
 			
 @Test(priority=4)
@@ -75,6 +83,9 @@ public class LoginTest extends Base {
 		loginpage.username(usernamevalue);
 		loginpage.pswrd(passwordvalue);
 		loginpage.clickOnSignin();
+		boolean manageuser=loginpage.isManageUserDisplayed();
+		Assert.assertTrue(manageuser);
+		
 			}	
 
 }
