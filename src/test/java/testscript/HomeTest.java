@@ -5,11 +5,11 @@ import java.io.IOException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import pages.LogOutPage;
+import pages.HomePage;
 import pages.LoginPage;
 import utilities.ExcelUtility;
 
-public class LogoutTest extends Base {
+public class HomeTest extends Base {
 
 
 @Test(groups= {"regression"})
@@ -29,7 +29,7 @@ public void verifyLogoutTest() throws IOException, InterruptedException
 
 	
 	
-	LogOutPage lp=new LogOutPage(driver);
+	HomePage lp=new HomePage(driver);
 	
 	lp.dropdown();
 	lp.clickLogout();
